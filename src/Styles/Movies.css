@@ -1,0 +1,232 @@
+.Movies {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Movies-content {
+    position: relative;
+    margin-top: 100px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Movies-top {
+    opacity: 0;
+    width: 40%;
+    position: relative;
+    left: 5%;
+    top: 30%;
+    text-align: center;
+    color:cadetblue;
+    font-size: 1.2em;
+    transform: translateY(50px); 
+    animation: fadeInUp 0.8s ease-out forwards;
+    animation-delay: .2s;
+    box-sizing: border-box;
+}
+
+.Movies-top h1 {
+    font-size: 2em;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.Movies-top span {
+    color: mediumpurple;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    font-size: 1.7em;
+    font-weight: 500;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.Movies-list {
+    opacity: 0;
+    position: relative;
+    width: 60%;
+    overflow: auto;
+    transform: translateY(50px); 
+    animation: fadeInUp 0.8s ease-out forwards;
+    animation-delay: .4s;
+}
+
+
+.movie-card {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 800px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin: 4vh auto;
+    border-radius: 4px;
+    box-shadow: 2px 3px 12px rgba(0, 0, 0, .4);
+    color: white;
+    padding: 2vh 3%;
+    transition: transform .3s ease-out;
+}
+
+.movie-card:hover {
+    transform: scale(1.1);
+}
+
+.movie-card:nth-child(1) {
+    background: url(../assets/toyStory.avif);
+    background-position: center;
+    background-size: cover;
+}
+
+.movie-card:nth-child(2) {
+    background: url(../assets/TheAvengers.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.movie-card:nth-child(3) {
+    background: url(../assets/avengersAgeofUltron.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.movie-card:nth-child(4) {
+    background: url(../assets/avengers-infinity-war.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.movie-card:nth-child(5) {
+    background: url(../assets/avengers-endgame.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.movie-card:nth-child(6) {
+    background: url(../assets/Spider-Man-Homecoming.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.movie-card:nth-child(7) {
+    background: url(../assets/incredibles2.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.movie-card:nth-child(8) {
+    background: url(../assets/batman-begins.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.movie-card:nth-child(9) {
+    background: url(../assets/The-Dark-Knight.avif);
+    background-position: center;
+    background-size: cover;
+}
+
+.movie-card:nth-child(10) {
+    background: url(../assets/The-dark-knight-rises.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.movie-card:nth-child(11) {
+    background: url(../assets/Detecive\ Conan.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.movie-card:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background: linear-gradient(to right, rgba(40,40,60,1) 0%,rgba(40,0,60,0) 90%);
+    background-blend-mode: multiply;
+    will-change: transform;
+    z-index: 0;
+}
+
+.movie-card h1 {
+    font-size: 170%;
+    position: relative;
+    z-index: 10;
+}
+
+.movie-card span {
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+    margin-right: 80px;
+    color: rgb(210, 210, 210);
+}
+
+.movie-card p {
+    position: relative;
+    z-index: 10;
+    font-size: .8em;
+    width: 60%;
+    height: 35%;
+}
+
+.star {
+    color: #FFBF00;
+}
+
+@media (max-width: 1032px) {
+    .Movies-list {
+        width: 50%;
+    }
+}
+@media (max-width: 768px) {
+    .Movies-top h1 {
+        font-size: 1.5em;
+    }
+
+    .Movies-top span {
+        font-size: 1.5em;
+    }
+
+    .movie-card {
+      width: 75%;
+      height: 200px;
+    }
+    .movie-card h1 {
+    font-size: 120%;
+    }
+    .movie-card p {
+      display: none;
+  /*     overflow: hidden;
+      width: 100%;
+      height: 30%; */
+    }
+  }
+
+@media (max-width: 500px) {
+    .Movies-top {
+        display: none;
+    }
+
+    .Movies-list {
+        width: 100%;
+    }
+    .movie-card {
+      width: 100%;
+    }
+  }

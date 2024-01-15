@@ -1,0 +1,185 @@
+.Navbar {
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.3em;
+    font-weight: 600;
+    justify-content: center;
+    
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    background-color: #6050DC;
+    justify-content: space-between;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+    z-index: 2;
+}
+
+.left-side {
+    position: absolute;
+    left: 5%;
+}
+
+.right-side {
+    position: absolute;
+    right: 15%;
+    display: flex;
+    flex-direction: row;
+}
+
+.right-side li {
+    list-style: none;
+    padding-right: 50px;
+    cursor: pointer;
+}
+
+.right-side li a {
+    text-decoration: none;
+    color: white;
+    transition: all .5s ease;
+}
+
+.right-side li a:hover {
+    color:cadetblue;
+}
+.menu-btn,
+.nav-2 {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .right-side {
+        display: none;
+    }
+
+    .menu-icon {
+        cursor: pointer;
+        float: right;
+        padding: 5px;
+        position: absolute;
+        right: 15%;
+        user-select: none;
+        z-index: 2;
+    }
+
+    .menu-icon .nav-icon {
+        background-color: #ffffffcc;
+        display: block;
+        height: 2px;
+        width: 25px;
+        position: relative;
+        transition: background 0.2s ease-out;
+    }
+
+    .menu-icon .nav-icon::before,
+    .menu-icon .nav-icon::after {
+        background-color: #ffffffcc;
+        content: '';
+        display: block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        transition: all ease-out 0.2s;
+    }
+
+    .menu-icon .nav-icon::before {
+        top: 5px;
+    }
+
+    .menu-icon .nav-icon::after {
+        top: -5px;
+    }
+
+    .menu-icon .nav-icon,
+    .menu-icon:checked ~ .menu-icon .nav-icon {
+        background-color: transparent;
+    }
+
+    .menu-btn:checked ~ .menu-icon .nav-icon::before {
+        transform: rotate(-45deg);
+        top: 0px;
+    }
+
+    .menu-btn:checked ~ .menu-icon .nav-icon::after {
+        transform: rotate(45deg);
+        top: 0px;
+    }
+
+    .menu-btn {
+        display: none;
+    }
+
+    .nav-2 {
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100vw;
+        height: 100%;
+        background-color: #2E2787;
+        flex-direction: column;
+        z-index: 1;
+        animation: fadein .3s ease-in-out;
+        list-style: none;
+    }
+
+    .nav-2 li {
+        opacity: 0;
+        transform: translateY(50px); 
+        animation: fadeInUp 0.8s ease-out forwards;
+        animation-delay: 0.5s;
+        text-align: center;
+        margin-bottom: 20px;
+        
+    }
+
+    .nav-2 li a{
+        text-decoration: none;
+        list-style: none;
+        color: white;
+        font-size: 75px;
+        transition: all .5s ease;
+    }
+
+    .nav-2 li a:hover {
+        color: cadetblue;
+        text-decoration: underline;
+    }
+
+    .menu-btn:checked ~ .nav-2 {
+        display: flex;
+        padding-left: 0;
+    }
+
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+        transform: translateY(-150px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+}
+
+@media (max-width: 540px) {
+    .nav-2 li a {
+        font-size: 50px;
+    }
+
+    
+}

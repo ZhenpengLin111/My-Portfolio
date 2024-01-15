@@ -1,0 +1,101 @@
+.About {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.About-content {
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    overflow: auto;
+}
+
+.about {
+    position: relative;
+    width: 40%;
+    height: 30%;
+    font-size: 5em;
+    color:aquamarine;
+    transform: translateX(-100%) rotate(540deg);
+    animation: rollIn2 1.5s ease-out forwards;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    position: relative;
+    width: 60%;
+    margin-block-start: 0em;
+    padding-inline-start: 0px;
+}
+
+.About-content li{
+    list-style: none;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    color: white;
+    transform: translateY(50px); 
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
+
+.About-content li:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.About-content li:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.About-content li:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+.Contacts ol {
+    margin-bottom: 10px;
+    list-style: none;
+    margin-block-start: 0em;
+    padding-inline-start: 0px;
+}
+
+.Contacts ol a {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.dot {
+    width: 5px;
+    height: 5px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .about {
+        display: none;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@keyframes rollIn2 {
+    to {
+        transform: translateX(0) rotate(-90deg);
+    }
+}
+
