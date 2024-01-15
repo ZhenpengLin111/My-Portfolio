@@ -1,6 +1,6 @@
 .About {
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,8 +9,9 @@
 .About-content {
     margin-top: 100px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-    overflow: auto;
 }
 
 .about {
@@ -31,6 +32,16 @@
     width: 60%;
     margin-block-start: 0em;
     padding-inline-start: 0px;
+}
+
+.About-content-top {
+    width: 100%;
+    display: flex;
+}
+
+.About-content-bottom {
+    width: 80%;
+    max-height: auto;
 }
 
 .About-content li{
