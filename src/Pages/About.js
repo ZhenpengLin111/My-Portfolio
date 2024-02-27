@@ -17,22 +17,22 @@ function About() {
                         <li>
                             <h1>Who Am I</h1>
                             <p>
-                                Hi! I'm Zhenpeng Lin, a computer science major student with a passion for front-end development. 
-                                Armed with skills in JavaScript, Python, C++, HTML, and React, 
+                                Hi! I'm Zhenpeng Lin, a computer science major student with a passion for front-end development.
+                                Armed with skills in JavaScript, Python, C++, HTML, and React,
                                 I embark on the exciting journey of crafting engaging and user-friendly web experiences.
                             </p>
                         </li>
                         <li>
                             <h1>My Interests</h1>
                             <p>
-                                Beyond coding, my interests span a diverse range of activities. 
-                                From intense workouts at the gym to immersive gaming sessions, 
-                                I find joy in the dynamic balance of staying active and embracing the digital realm. A music enthusiast at heart, 
+                                Beyond coding, my interests span a diverse range of activities.
+                                From intense workouts at the gym to immersive gaming sessions,
+                                I find joy in the dynamic balance of staying active and embracing the digital realm. A music enthusiast at heart,
                                 I appreciate the power of melodies to enhance every moment.
                             </p>
                             <p>
-                                Currently calling Brooklyn, NY, my home, I draw inspiration from the vibrant energy of the city. 
-                                When I'm not coding, you'll find me immersed in captivating TV series and movies, 
+                                Currently calling Brooklyn, NY, my home, I draw inspiration from the vibrant energy of the city.
+                                When I'm not coding, you'll find me immersed in captivating TV series and movies,
                                 exploring stories that broaden my perspectives.
                             </p>
                         </li>
@@ -60,24 +60,24 @@ function About() {
                     </ul>
                 </div>
                 <div className="About-content-bottom">
-                <Giscus
-                id="comments"
-                repo="ZhenpengLin111/My-Blog"
-                repoId="R_kgDOLFLZgg"
-                category="Announcements"
-                categoryId="DIC_kwDOLFLZgs4CccNt"
-                mapping="pathname"
-                term="Welcome to @giscus/react component!"
-                reactionsEnabled="1"
-                emitMetadata="0"
-                inputPosition="bottom"
-                theme="preferred_color_scheme"
-                lang="en"
-                loading="lazy"
-                 />
+                    <Giscus
+                        id="comments"
+                        repo="ZhenpengLin111/My-Blog"
+                        repoId="R_kgDOLFLZgg"
+                        category="Announcements"
+                        categoryId="DIC_kwDOLFLZgs4CccNt"
+                        mapping="pathname"
+                        term="Welcome to @giscus/react component!"
+                        reactionsEnabled="1"
+                        emitMetadata="0"
+                        inputPosition="bottom"
+                        theme="preferred_color_scheme"
+                        lang="en"
+                        loading="lazy"
+                    />
                 </div>
             </div>
-            
+
         </div>
     );
 }
