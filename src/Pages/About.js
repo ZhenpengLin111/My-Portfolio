@@ -63,9 +63,9 @@ function About() {
                     <Giscus
                         id="comments"
                         repo="ZhenpengLin111/My-Blog"
-                        repoId="R_kgDOLuBVaA"
+                        repoId="R_kgDOLuC-CQ"
                         category="Announcements"
-                        categoryId="DIC_kwDOLuBVaM4CertZ"
+                        categoryId="DIC_kwDOLuC-Cc4Cerul"
                         mapping="pathname"
                         term="Welcome to @giscus/react component!"
                         reactionsEnabled="1"
