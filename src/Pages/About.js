@@ -18,7 +18,7 @@ function About() {
                             <h1>Who Am I</h1>
                             <p>
                                 Hi! I'm Zhenpeng Lin, a computer science major student with a passion for front-end development.
-                                Armed with skills in JavaScript, Python, C++, HTML, and React,
+                                Armed with skills in JavaScript, Python, C++, HTML, React and etc,
                                 I embark on the exciting journey of crafting engaging and user-friendly web experiences.
                             </p>
                         </li>
