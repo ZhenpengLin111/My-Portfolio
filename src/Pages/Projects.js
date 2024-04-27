@@ -55,7 +55,7 @@ function Projects() {
                         <img className="work-pic" src={MyBlog} alt=''/>
                             <h4 className="work-name">My Blog</h4>
                             <p className="work-description">
-                                A blog website that introduces myself and document my growth on Web dev.
+                                A portfolio website that introduces myself and document my growth on Web dev.
                             </p>
                             <div className="tags">
                                 <div className="tag">React Js</div>
