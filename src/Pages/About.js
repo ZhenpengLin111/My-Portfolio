@@ -62,7 +62,7 @@ function About() {
                 <div className="About-content-bottom">
                     <Giscus
                         id="comments"
-                        repo="ZhenpengLin111/My-Blog"
+                        repo="ZhenpengLin111/My-Portfolio"
                         repoId="R_kgDOLuC-CQ"
                         category="Announcements"
                         categoryId="DIC_kwDOLuC-Cc4Cerul"
