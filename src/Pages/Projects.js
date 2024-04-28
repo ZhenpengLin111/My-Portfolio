@@ -3,6 +3,7 @@ import "../Styles/Projects.css";
 import CUNY_JOIN from "../assets/CUNY_JOIN.png";
 import Recipe_Finder from "../assets/Recipe-Finder.png"
 import MyBlog from "../assets/MyBlog.png";
+import ArticlePoster from "../assets/ArticlePoster.png"
 
 function Projects() {
     
@@ -19,6 +20,21 @@ function Projects() {
                     <p>Showcase of my works on full-stack development.</p>
                 </div>
                 <ul className="works">
+                    <li className="work">
+                        <a href="https://zplarticleposter.netlify.app/" target="_blank" rel="noopener noreferrer">
+                        <img className="work-pic" src={ArticlePoster} alt=''/>
+                            <h4 className="work-name">ArticlePoster</h4>
+                            <p className="work-description">
+                            ArticlePoster is a Vue 3 application for managing articles and user profiles. 
+                            Users can authenticate, update their profile information, and create, edit, or delete articles.
+                            </p>
+                            <div className="tags">
+                                <div className="tag">Vue.Js</div>
+                                <div className="tag">Element Plus</div>
+                                <div className="tag">Axios</div>
+                            </div>
+                        </a>
+                    </li>
                     <li className="work">
                         <a href="https://zplrecipefinder.netlify.app/" target="_blank" rel="noopener noreferrer">
                         <img className="work-pic" src={Recipe_Finder} alt=''/>
@@ -51,7 +67,7 @@ function Projects() {
                     </li>
                     
                     <li className="work">
-                        <a href="https://zplmyblog.netlify.app/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://zplmyportfolio.netlify.app/" target="_blank" rel="noopener noreferrer">
                         <img className="work-pic" src={MyBlog} alt=''/>
                             <h4 className="work-name">My Blog</h4>
                             <p className="work-description">
