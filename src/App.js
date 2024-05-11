@@ -7,6 +7,7 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Movies from './Pages/Movies'; 
 import Projects from './Pages/Projects';
+import Circles from './Components/Circles';
 
 function App() {
   return (
@@ -19,18 +20,7 @@ function App() {
           <link rel="icon" type="image/png" href="..public/favicon.png" sizes="16x16" />
         </Helmet>
         <div className="area" >
-          <ul className="circles">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
+          <Circles />
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
