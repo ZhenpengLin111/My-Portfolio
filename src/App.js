@@ -2,12 +2,11 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import Navbar from './Components/navbar';
+import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Movies from './Pages/Movies'; 
 import Projects from './Pages/Projects';
-import MessageBoard from './Pages/Message';
 
 function App() {
   return (
@@ -38,7 +37,6 @@ function App() {
             <Route path="/About" element={<About />} />
             <Route path='/Movies' element={<Movies />} />
             <Route path='/Projects' element={<Projects />} />
-            <Route path='/Message_board' element={<MessageBoard />} />
           </Routes>
         </div>
       </div>

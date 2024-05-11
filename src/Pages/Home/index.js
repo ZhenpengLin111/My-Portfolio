@@ -1,6 +1,6 @@
-import "../Styles/Home.css";
+import "./index.css"
 import { Helmet } from 'react-helmet';
-import Homeimg from "../assets/aloneBoy.png"
+import Homeimg from "../../assets/aloneBoy.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faBilibili } from "@fortawesome/free-brands-svg-icons";
@@ -31,7 +31,7 @@ function Home() {
                             </a>
                         </li>
                         <li>
-                            <a href="mailto:linprovidence@icloud.com" >
+                            <a href="mailto:penglin524@gmail.com" >
                                <FontAwesomeIcon icon={faEnvelope} />
                             </a>
                         </li>

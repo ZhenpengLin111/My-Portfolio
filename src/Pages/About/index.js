@@ -1,4 +1,4 @@
-import "../Styles/About.css";
+import "./index.css"
 import { Helmet } from 'react-helmet';
 import Giscus from '@giscus/react';
 

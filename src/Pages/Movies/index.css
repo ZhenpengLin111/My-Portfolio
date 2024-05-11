@@ -83,67 +83,67 @@
 }
 
 .movie-card:nth-child(1) {
-    background: url(../assets/toyStory.avif);
+    background: url(../../assets/toyStory.avif);
     background-position: center;
     background-size: cover;
 }
 
 .movie-card:nth-child(2) {
-    background: url(../assets/TheAvengers.jpeg);
+    background: url(../../assets/TheAvengers.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 .movie-card:nth-child(3) {
-    background: url(../assets/avengersAgeofUltron.jpeg);
+    background: url(../../assets/avengersAgeofUltron.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 .movie-card:nth-child(4) {
-    background: url(../assets/avengers-infinity-war.jpeg);
+    background: url(../../assets/avengers-infinity-war.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 .movie-card:nth-child(5) {
-    background: url(../assets/avengers-endgame.jpeg);
+    background: url(../../assets/avengers-endgame.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 .movie-card:nth-child(6) {
-    background: url(../assets/Spider-Man-Homecoming.webp);
+    background: url(../../assets/Spider-Man-Homecoming.webp);
     background-position: center;
     background-size: cover;
 }
 
 .movie-card:nth-child(7) {
-    background: url(../assets/incredibles2.jpeg);
+    background: url(../../assets/incredibles2.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 .movie-card:nth-child(8) {
-    background: url(../assets/batman-begins.webp);
+    background: url(../../assets/batman-begins.webp);
     background-position: center;
     background-size: cover;
 }
 
 .movie-card:nth-child(9) {
-    background: url(../assets/The-Dark-Knight.avif);
+    background: url(../../assets/The-Dark-Knight.avif);
     background-position: center;
     background-size: cover;
 }
 
 .movie-card:nth-child(10) {
-    background: url(../assets/The-dark-knight-rises.jpeg);
+    background: url(../../assets/The-dark-knight-rises.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 .movie-card:nth-child(11) {
-    background: url(../assets/Detecive\ Conan.jpeg);
+    background: url(../../assets/Detecive\ Conan.jpeg);
     background-position: center;
     background-size: cover;
 }

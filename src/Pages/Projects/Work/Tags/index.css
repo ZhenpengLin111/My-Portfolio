@@ -1,0 +1,13 @@
+.tags {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.tag {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px;
+  font-size: .8em;
+}
