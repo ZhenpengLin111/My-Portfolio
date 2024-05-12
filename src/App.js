@@ -8,6 +8,7 @@ import About from './Pages/About';
 import Movies from './Pages/Movies'; 
 import Projects from './Pages/Projects';
 import Circles from './Components/Circles';
+import NotFound from './Pages/NotFound';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             <Route path="/About" element={<About />} />
             <Route path='/Movies' element={<Movies />} />
             <Route path='/Projects' element={<Projects />} />
+            <Route path='*' element={<NotFound />} />
           </Routes>
         </div>
       </div>

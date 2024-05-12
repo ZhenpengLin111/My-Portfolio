@@ -1,0 +1,40 @@
+.NotFound {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.FourZeroFour {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FourZeroFour img {
+  height: 250px;
+}
+
+.FourZeroFour span {
+  font-size: 17em;
+  color: white;
+}
+
+.NotFound p {
+  color: white;
+  text-align: center;
+  font-size: 2em;
+}
+
+@media (max-width: 540px) {
+  .FourZeroFour img {
+    height: 150px;
+  }
+  .FourZeroFour span {
+    font-size: 10em;
+  }
+}
+
