@@ -24,8 +24,8 @@ function Projects() {
                     <Work
                     link={"https://zplarticleposter.netlify.app/"} 
                     pic={ArticlePoster}
-                    name={'ArticlePoster'}
-                    description={'ArticlePoster is a Vue 3 application for managing articles and user profiles. Users can authenticate, update their profile information, and create, edit, or delete articles.'}
+                    name={'ArticleManager'}
+                    description={'ArticleManager is a Vue 3 application that simulates a real-world article management system. It allows users to authenticate, update profiles, and create, edit, or delete articles, providing efficient content management and user interaction.'}
                     tags={['Vue.Js', 'Element Plus', 'Axios']}
                     />
                     <Work
