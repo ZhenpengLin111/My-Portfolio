@@ -22,7 +22,7 @@ function Projects() {
                 </div>
                 <ul className="works">
                     <Work
-                    link={"https://zplarticleposter.netlify.app/"} 
+                    link={"https://zplarticlemanager.netlify.app"} 
                     pic={ArticlePoster}
                     name={'ArticleManager'}
                     description={'ArticleManager is a Vue 3 application that simulates a real-world article management system. It allows users to authenticate, update profiles, and create, edit, or delete articles, providing efficient content management and user interaction.'}
