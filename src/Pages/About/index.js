@@ -39,7 +39,7 @@ function About() {
                         <li className="Contacts">
                             <h1>My Contacts:</h1>
                             <ol>
-                                <a href="mailto:linprovidence@icloud.com" >
+                                <a href="mailto:penglin524@gmail.com" >
                                     <div className="dot"></div>
                                     <span>Mail</span>
                                 </a>
