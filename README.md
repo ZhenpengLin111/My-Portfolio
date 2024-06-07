@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Portfolio of Zhenpeng Lin
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my portfolio website! I'm Zhenpeng Lin, an aspiring front-end developer with a great passion for creating dynamic and user-friendly web applications. This site showcases my learning journey, projects, and the skills I am developing as I work towards becoming a professional in the field of web development.
 
-## Available Scripts
+## About Me
 
-In the project directory, you can run:
+I am passionate about front-end development and dedicated to creating engaging user experiences. While I am still in the early stages of my journey, I have been actively learning and practicing key front-end technologies. I am particularly interested in responsive design and improving web performance.
 
-### `npm start`
+### Background
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+My background is in Computer Science, where I gained a solid understanding of programming principles, algorithms, and data structures. During my studies, I developed a keen interest in web development, particularly in creating interactive and aesthetically pleasing user interfaces. I have been channeling this interest into learning front-end development through online courses, tutorials, and personal projects.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Goals
 
-### `npm test`
+My goal is to become a proficient front-end developer, capable of building seamless and engaging web experiences. I am committed to continuous learning and improvement, and I am excited to contribute to innovative projects in the web development field.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+For more details about my journey and aspirations, you can visit the [About](#about) section on my website.
 
-### `npm run build`
+### Projects
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Here are some of the projects I have worked on during my learning journey:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Project 1: Personal Portfolio Website
+![Portfolio Screenshot](/src/assets/MyPortfolio.png)
+- **Description:** A personal portfolio website to showcase my projects and skills.
+- **Technologies Used:** React
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Project 2: CUNY_JOIN
+![CUNY_JOIN Screenshot](/src/assets/CUNY_JOIN.png)
+- **Description:** A comprehensive website which aims to serve the CUNY student community by providing two essential functions: scholarship searching and a student forum.
+- **Technologies Used:** React, AWS
 
-### `npm run eject`
+### Project 3: Recipe Finder
+![Recipe Finder Screenshot](/src/assets/Recipe-Finder.png)
+- **Description:** A website simplifies meal planning by enabling you to discover recipes based on specific nutrients or available ingredients. Enjoy the convenience of finding the perfect dish for any occasion, personalized to your dietary preferences. 
+- **Technologies Used:** React, Express Js, Axios
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Project 4: ArticleManager
+![ArticleManager Screenshot](/src/assets/ArticleManager.png)
+- **Description:** A Vue 3 application that simulates a real-world article management system. It allows users to authenticate, update profiles, and create, edit, or delete articles, providing efficient content management and user interaction.
+- **Technologies Used:** Vue.js, Element Plus, Axios
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Skills
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Programming Languages:** HTML, CSS, JavaScript, TypeScript, C++, Python
+- **Frameworks and Libraries:** React, Vue.js, Node.js
+- **Tools and Technologies:** AJAX, Webpack, Git, MySQL
+- **Other Skills:** Responsive Design, Problem-Solving
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Contact
 
-## Learn More
+I would love to connect with fellow developers, potential mentors, or anyone interested in web development. You can reach me through the following channels:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Email:** penglin524@gmail.com
+- **GitHub:** [Zhenpeng Lin GitHub Profile](https://github.com/ZhenpengLin111)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feel free to reach out for any queries, collaboration opportunities, or just to connect!
 
-### Code Splitting
+### Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To run any of the projects locally, follow these steps:
 
-### Analyzing the Bundle Size
+1. Clone the repository: `git clone https://github.com/ZhenpengLin111/My-Portfolio.git`
+2. Navigate to the project directory: `cd My-Portfolio`
+3. Install dependencies: `npm install`
+4. Run the development server: `npm start`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The project should now be running at `http://localhost:3000`.
 
-### Making a Progressive Web App
+### Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+To navigate the website, use the following sections:
+- **Home:** Overview of who I am and what I aspire to do.
+- **Projects:** Descriptions of the projects I am working on or have completed.
+- **About:** Introduction of myself, List of the skills I am developing, my areas of interest and my contact information.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Explore each section to learn more about my journey and aspirations in web development.

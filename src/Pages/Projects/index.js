@@ -2,8 +2,8 @@ import { Helmet } from 'react-helmet';
 import "./index.css"
 import CUNY_JOIN from "../../assets/CUNY_JOIN.png";
 import Recipe_Finder from "../../assets/Recipe-Finder.png"
-import MyBlog from "../../assets/MyBlog.png";
-import ArticlePoster from "../../assets/ArticlePoster.png"
+import MyBlog from "../../assets/MyPortfolio.png";
+import ArticlePoster from "../../assets/ArticleManager.png"
 import Work from './Work'
 
 function Projects() {
