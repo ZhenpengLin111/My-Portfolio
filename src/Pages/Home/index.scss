@@ -34,7 +34,7 @@
 
 .Home-container p:nth-child(2) span{
     color: black;
-    font-family: Apple Chancery, cursive;
+    font-family: 'Apple Chancery', 'Great Vibes', cursive;
 }
 
 .Home-container p:nth-child(3) {
@@ -113,14 +113,13 @@
 
 @media (max-width: 500px) {
     .Home-container {
-        margin-top: 120px;
+        margin-top: 100px;
         display: flex;
         flex-direction: column;
 
         .Home-img {
             margin: auto;
             margin-top: 15px;
-
         }
     }
 }
