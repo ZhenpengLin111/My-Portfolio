@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: auto;
 }
 
 .Home-container {
@@ -111,9 +112,17 @@
 }
 
 @media (max-width: 500px) {
-    .Home-img {
-        display: none;
-    } 
+    .Home-container {
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+
+        .Home-img {
+            margin: auto;
+            margin-top: 15px;
+
+        }
+    }
 }
 
 

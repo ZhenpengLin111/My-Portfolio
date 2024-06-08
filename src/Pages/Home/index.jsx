@@ -1,4 +1,4 @@
-import "./index.css"
+import "./index.scss"
 import { Helmet } from 'react-helmet';
 import Homeimg from "../../assets/aloneBoy.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
