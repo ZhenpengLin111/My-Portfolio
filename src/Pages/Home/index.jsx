@@ -18,7 +18,7 @@ function Home() {
                 <div className="Home-desc">
                     <p>Hey!</p>
                     <p>I'm <span>Zhenpeng</span>.</p>
-                    <p>A Computer Science Major Student Who is Interested in Web Development.</p>
+                    <p>An aspiring front-end developer with a great passion for creating dynamic and user-friendly web applications.</p>
                     <ul className="icons">
                         <li className="icon">
                             <a href="https://github.com/ZhenpengLin111" target="_blank" rel="noopener noreferrer"> 

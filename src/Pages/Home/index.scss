@@ -9,12 +9,19 @@
 }
 
 .Home-container {
+    padding: 0px 60px;
     color: white;
     display: flex;
     flex-direction: row;
+
+    .Home-desc {
+        width: 70%;
+    }
 }
 
 .Home-container p {
+    margin-left: 90px;
+    width: 85%;
     opacity: 0;
     transform: translateY(50px); 
     animation: fadeInUp 0.8s ease-out forwards;
@@ -65,6 +72,7 @@
 }
 
 .icons {
+    margin-left: 90px;
     opacity: 0;
     margin-top: 50px;
     display: flex;
@@ -94,6 +102,14 @@
 @media (max-width: 768px) {
     .Home-container {
         padding: 20px;
+    }
+    .Home-container p {
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    .icons {
+        margin-left: 30px;
     }
     .Home-container p:nth-child(1),
     .Home-container p:nth-child(2)
