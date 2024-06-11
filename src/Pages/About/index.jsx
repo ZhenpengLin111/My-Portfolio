@@ -27,7 +27,7 @@ function About() {
                         <li>
                             <h1>Who Am I</h1>
                             <p>
-                                Hi! I'm Zhenpeng Lin, a computer science major student with a passion for front-end development.
+                                Hi! I'm Zhenpeng Lin, a recent computer science major alumni with a passion for front-end development.
                                 Armed with skills in JavaScript, Python, C++, HTML, React and etc,
                                 I embark on the exciting journey of crafting engaging and user-friendly web experiences.
                             </p>
@@ -58,6 +58,12 @@ function About() {
                                 <a href="https://github.com/ZhenpengLin111" target="_blank" rel="noopener noreferrer">
                                     <div className="dot"></div>
                                     <span>Github</span>
+                                </a>
+                            </ol>
+                            <ol>
+                                <a href="https://www.linkedin.com/in/zhenpeng-lin-317621227" target="_blank" rel="noopener noreferrer">
+                                    <div className="dot"></div>
+                                    <span>LinkedIn</span>
                                 </a>
                             </ol>
                             <ol>
