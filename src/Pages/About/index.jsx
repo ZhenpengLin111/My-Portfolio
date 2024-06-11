@@ -1,6 +1,7 @@
 import "./index.css"
 import { Helmet } from 'react-helmet';
 import Giscus from '@giscus/react';
+import Footer from "@/Components/Footer";
 
 function About() {
     return (
@@ -77,6 +78,7 @@ function About() {
                     />
                 </div>
             </div>
+            <Footer />
         </div>
     );
 }

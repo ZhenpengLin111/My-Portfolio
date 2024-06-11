@@ -1,0 +1,14 @@
+.icon {
+  position: relative;
+  margin-right: 30px;
+  font-size: 24px;
+}
+
+.icon a {
+  color: aqua;
+  transition: all .5s ease-out;
+}
+
+.icon a:hover {
+  color: black;
+}

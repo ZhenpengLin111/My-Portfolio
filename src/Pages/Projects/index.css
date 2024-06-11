@@ -8,7 +8,6 @@
 }
 
 .Projects-content {
-    width: 100%;
     margin-top: 100px;
     width: 80vw;
 }
@@ -18,7 +17,6 @@
     transform: translateY(50px); 
     animation: fadeInUp 0.8s ease-out forwards;
     animation-delay: 0.2s;
-
 }
 
 .Projects-header h1{
@@ -30,4 +28,3 @@
     font-size: 1.2em;
     color: black;
 }
-

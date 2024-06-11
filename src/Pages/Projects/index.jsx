@@ -5,6 +5,7 @@ import Recipe_Finder from "../../assets/Recipe-Finder.png"
 import MyBlog from "../../assets/MyPortfolio.png";
 import ArticlePoster from "../../assets/ArticleManager.png"
 import Work from './Work'
+import Footer from '@/Components/Footer';
 
 function Projects() {
     
@@ -51,6 +52,7 @@ function Projects() {
                     />
                 </ul>
             </div>
+            <Footer />
         </div>
     );
 }

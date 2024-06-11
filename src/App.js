@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet';
 import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
 import About from './Pages/About';
-import Movies from './Pages/Movies'; 
+// import Movies from './Pages/Movies'; 
 import Projects from './Pages/Projects';
 import Circles from './Components/Circles';
 import NotFound from './Pages/NotFound';
@@ -26,7 +26,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/About" element={<About />} />
-            <Route path='/Movies' element={<Movies />} />
+            {/* <Route path='/Movies' element={<Movies />} /> */}
             <Route path='/Projects' element={<Projects />} />
             <Route path='*' element={<NotFound />} />
           </Routes>

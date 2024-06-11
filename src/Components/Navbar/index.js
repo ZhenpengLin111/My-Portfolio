@@ -18,7 +18,7 @@ function Navbar() {
                 </div>
                 <ul className="right-side">
                     <li><Link to="/" onClick={handleLinkClick}>Home</Link></li>
-                    <li><Link to="/Movies" onClick={handleLinkClick}>Movies</Link></li>
+                    {/* <li><Link to="/Movies" onClick={handleLinkClick}>Movies</Link></li> */}
                     <li><Link to="/Projects" onClick={handleLinkClick}>Projects</Link></li>
                     <li><Link to="/About" onClick={handleLinkClick}>About</Link></li>
                 </ul>
@@ -30,7 +30,7 @@ function Navbar() {
             </label>
             <ul className='nav-2'>
                 <li><Link to="/" onClick={handleLinkClick}>Home</Link></li>
-                <li><Link to="/Movies" onClick={handleLinkClick}>Movies</Link></li>
+                {/* <li><Link to="/Movies" onClick={handleLinkClick}>Movies</Link></li> */}
                 <li><Link to="/Projects" onClick={handleLinkClick}>Projects</Link></li>
                 <li><Link to="/About" onClick={handleLinkClick}>About</Link></li>
             </ul>
