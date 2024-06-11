@@ -6,11 +6,19 @@ import MyBlog from "../../assets/MyPortfolio.png";
 import ArticlePoster from "../../assets/ArticleManager.png"
 import Work from './Work'
 import Footer from '@/Components/Footer';
+import ScrollBtn from '@/Components/ScrollBtn';
+import { useState, useRef } from 'react';
 
 function Projects() {
-    
+     // Keep track of the scrolling position of the component
+     const ProjectRef = useRef(null)
+     const [scrollPos, setScrollPos] = useState(0)
+     const handleScroll = (e) => {
+         const { scrollTop } = e.target
+         setScrollPos(scrollTop)
+     }
     return (
-        <div className="Projects">
+        <div className="Projects" onScroll={handleScroll} ref={ProjectRef}>
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Projects | ZPL の 小窝</title>
@@ -53,6 +61,7 @@ function Projects() {
                 </ul>
             </div>
             <Footer />
+            <ScrollBtn scrollPos={scrollPos} ele={ProjectRef}/>
         </div>
     );
 }

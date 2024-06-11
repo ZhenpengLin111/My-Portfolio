@@ -2,10 +2,19 @@ import "./index.css"
 import { Helmet } from 'react-helmet';
 import Giscus from '@giscus/react';
 import Footer from "@/Components/Footer";
+import { useState, useRef } from "react";
+import ScrollBtn from "@/Components/ScrollBtn";
 
 function About() {
+    // Keep track of the scrolling position of the component
+    const AboutRef = useRef(null)
+    const [scrollPos, setScrollPos] = useState(0)
+    const handleScroll = (e) => {
+        const { scrollTop } = e.target
+        setScrollPos(scrollTop)
+    }
     return (
-        <div className="About">
+        <div className="About" onScroll={handleScroll} ref={AboutRef}>
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>About | ZPL の 小窝</title>
@@ -79,6 +88,7 @@ function About() {
                 </div>
             </div>
             <Footer />
+            <ScrollBtn scrollPos={scrollPos} ele={AboutRef} />
         </div>
     );
 }

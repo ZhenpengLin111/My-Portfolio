@@ -10,10 +10,11 @@ import ArticleManager from '@/assets/ArticleManager.png'
 import CUNY_JOIN from '@/assets/CUNY_JOIN.png'
 import Recipe_Finder from '@/assets/Recipe-Finder.png'
 import My_Portfolio from '@/assets/MyPortfolio.png'
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import * as echarts from 'echarts';
 import Icon from "./icon";
 import Footer from "@/Components/Footer";
+import ScrollBtn from "@/Components/ScrollBtn";
 
 function Home() {
     const chartRef = useRef(null)
@@ -136,9 +137,16 @@ function Home() {
         };
     }, []);
 
+    // Keep track of the scrolling position of the component
+    const HomeRef = useRef(null)
+    const [scrollPos, setScrollPos] = useState(0)
+    const handleScroll = (e) => {
+        const { scrollTop } = e.target
+        setScrollPos(scrollTop)
+    }
 
     return (
-        <div className="Home">
+        <div className="Home" onScroll={handleScroll} ref={HomeRef}>
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>ZPL の 小窝</title>
@@ -218,6 +226,7 @@ function Home() {
                 </ul>
             </div>
             <Footer />
+            <ScrollBtn scrollPos={scrollPos} ele={HomeRef} />
         </div>
     );
 }

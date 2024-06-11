@@ -20,10 +20,10 @@ function App() {
           <title>ZPL の 小窝</title>
           <link rel="icon" type="image/png" href="..public/favicon.png" sizes="16x16" />
         </Helmet>
-        <div className="area" >
+        <div className="area">
           <Circles />
           <Navbar />
-          <Routes>
+          <Routes >
             <Route path="/" element={<Home />} />
             <Route path="/About" element={<About />} />
             {/* <Route path='/Movies' element={<Movies />} /> */}
