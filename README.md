@@ -1,18 +1,22 @@
 # Portfolio of Zhenpeng Lin
 
-Welcome to my portfolio website! I'm Zhenpeng Lin, an aspiring front-end developer with a great passion for creating dynamic and user-friendly web applications. This site showcases my learning journey, projects, and the skills I am developing as I work towards becoming a professional in the field of web development.
+Welcome to my portfolio website! I'm Zhenpeng Lin, an aspiring full-stack developer with a great passion for creating dynamic and user-friendly web applications. This site showcases my learning journey, projects, and the skills I am developing as I work towards becoming a professional in the field of web development.
+
+## Demo
+
+You can see a live demo of the application [here](https://zplmyportfolio.netlify.app).
 
 ## About Me
 
-I am passionate about front-end development and dedicated to creating engaging user experiences. While I am still in the early stages of my journey, I have been actively learning and practicing key front-end technologies. I am particularly interested in responsive design and improving web performance.
+I am passionate about full-stack development and dedicated to creating engaging user experiences. While I am still in the early stages of my journey, I have been actively learning and practicing key full-stack technologies. I am particularly interested in responsive design and improving web performance.
 
 ### Background
 
-My background is in Computer Science, where I gained a solid understanding of programming principles, algorithms, and data structures. During my studies, I developed a keen interest in web development, particularly in creating interactive and aesthetically pleasing user interfaces. I have been channeling this interest into learning front-end development through online courses, tutorials, and personal projects.
+My background is in Computer Science, where I gained a solid understanding of programming principles, algorithms, and data structures. During my studies, I developed a keen interest in web development, particularly in creating interactive and aesthetically pleasing user interfaces. I have been channeling this interest into learning full-stack development through online courses, tutorials, and personal projects.
 
 ### Goals
 
-My goal is to become a proficient front-end developer, capable of building seamless and engaging web experiences. I am committed to continuous learning and improvement, and I am excited to contribute to innovative projects in the web development field.
+My goal is to become a proficient full-stack developer, capable of building seamless and engaging web experiences. I am committed to continuous learning and improvement, and I am excited to contribute to innovative projects in the web development field.
 
 For more details about my journey and aspirations, you can visit the [About](#about) section on my website.
 

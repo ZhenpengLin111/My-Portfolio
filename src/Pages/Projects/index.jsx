@@ -42,7 +42,7 @@ function Projects() {
                     pic={Recipe_Finder}
                     name={'Recipe Finder'}
                     description={'A website simplifies meal planning by enabling you to discover recipes based on specific nutrients or available ingredients. Enjoy the convenience of finding the perfect dish for any occasion, personalized to your dietary preferences. '}
-                    tags={['React Js', 'Express Js', 'Axios']}
+                    tags={['React Js', 'Axios']}
                     />
                     <Work
                     link={"https://main.d1hx4eb06kng5e.amplifyapp.com"}

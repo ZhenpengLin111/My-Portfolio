@@ -156,7 +156,7 @@ function Home() {
                 <div className="Home-desc">
                     <p>Hey!</p>
                     <p>I'm <span>Zhenpeng</span>.</p>
-                    <p>An aspiring front-end developer with a great passion for creating dynamic and user-friendly web applications.</p>
+                    <p>An aspiring full-stack developer with a great passion for creating dynamic and user-friendly web applications.</p>
                     <ul className="icons">
                         <Icon href={"https://github.com/ZhenpengLin111"} icon={faGithub} />
                         <Icon href={"https://www.linkedin.com/in/zhenpeng-lin-317621227"} icon={faLinkedin} />
@@ -170,9 +170,9 @@ function Home() {
             </div>
             <div className="About-Me">
                 <h1>About Me</h1>
-                <p>I am passionate about front-end development and dedicated to creating engaging user experiences. While I am still in the early stages of my journey, I have been actively learning and practicing key front-end technologies. I am particularly interested in responsive design and improving web performance.</p>
-                <p>My background is in Computer Science, where I gained a solid understanding of programming principles, algorithms, and data structures. During my studies, I developed a keen interest in web development, particularly in creating interactive and aesthetically pleasing user interfaces. I have been channeling this interest into learning front-end development through online courses, tutorials, and personal projects.</p>
-                <p>My goal is to become a proficient front-end developer, capable of building seamless and engaging web experiences. I am committed to continuous learning and improvement, and I am excited to contribute to innovative projects in the web development field.</p>
+                <p>I am passionate about full-stack development and dedicated to creating engaging user experiences. While I am still in the early stages of my journey, I have been actively learning and practicing key full-stack technologies. I am particularly interested in responsive design and improving web performance.</p>
+                <p>My background is in Computer Science, where I gained a solid understanding of programming principles, algorithms, and data structures. During my studies, I developed a keen interest in web development, particularly in creating interactive and aesthetically pleasing user interfaces. I have been channeling this interest into learning full-stack development through online courses, tutorials, and personal projects.</p>
+                <p>My goal is to become a proficient full-stack developer, capable of building seamless and engaging web experiences. I am committed to continuous learning and improvement, and I am excited to contribute to innovative projects in the web development field.</p>
             </div>
             <div className="My-Projects">
                 <h1>My Projects</h1>
@@ -215,7 +215,7 @@ function Home() {
             </div>
             <div className="Contact">
                 <h1>Contact</h1>
-                <p>I am actively seeking internship and job opportunities in front-end and web development. If you have any openings or would like to discuss potential collaborations, please feel free to reach out to me. I look forward to connecting with you!</p>
+                <p>I am actively seeking internship and job opportunities in full-stack and web development. If you have any openings or would like to discuss potential collaborations, please feel free to reach out to me. I look forward to connecting with you!</p>
                 <a href="mailto:penglin524@gmail.com" className="Hello-btn">
                     Say Hello
                 </a>
