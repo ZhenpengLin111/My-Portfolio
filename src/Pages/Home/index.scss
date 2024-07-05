@@ -89,9 +89,10 @@
     animation-delay: 0.8s;
 }
 
-
-
 .About-Me {
+    opacity: 0;
+    transform: translateY(150px);
+    transition: all 1s ease-out;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -104,8 +105,44 @@
     }
 }
 
+.About-Me.fade-in {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.About-Me h1.fade-in-bottom {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp .8s ease-out forwards;
+    animation-delay: .2s;
+}
+
+.About-Me p:nth-child(2).fade-in-bottom {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp .8s ease-out forwards;
+    animation-delay: .4s;
+}
+
+.About-Me p:nth-child(3).fade-in-bottom {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp .8s ease-out forwards;
+    animation-delay: .6s;
+}
+
+.About-Me p:nth-child(4).fade-in-bottom {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp .8s ease-out forwards;
+    animation-delay: .8s;
+}
+
 .My-Projects {
-    margin-top: 150px;
+    opacity: 0;
+    transform: translateY(150px);
+    transition: all 1s ease-out;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -126,16 +163,60 @@
     }
 }
 
+.My-Projects.fade-in {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.My-Projects h1.fade-in-x {
+    opacity: 0;
+    transform: translateX(-350px);
+    animation: fadeInFromX .8s ease-in-out forwards;
+    animation-delay: .2s;
+}
+
+.Projects-container.fade-in-x {
+    opacity: 0;
+    transform: translateX(350px);
+    animation: fadeInFromX .8s ease-in-out forwards;
+    animation-duration: .4s;
+}
+
 .My-Skills {
-    margin-top: 150px;
+    opacity: 0;
+    transform: translateY(150px);
+    transition: all 1s ease-out;
+    margin-top: 20px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.My-Skills.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.My-Skills h1.fade-in-x {
+    opacity: 0;
+    transform: translateX(350px);
+    animation: fadeInFromX .8s ease-out forwards;
+    animation-duration: .6s;
+}
+
+.skillChart.fade-in-x {
+    opacity: 0;
+    transform: translateX(-350px);
+    animation: fadeInFromX .8s ease-out forwards;
+    animation-duration: .8s;
+}
+
 .Contact {
-    margin-top: 150px;
+    opacity: 0;
+    transform: translateY(150px);
+    transition: all 1s ease-out;
+    margin-top: 20px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -213,6 +294,38 @@
     }
 }
 
+.Contact.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.Contact h1.fade-in-bottom {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp .8s ease-out forwards;
+    animation-delay: .2s;
+}
+.Contact p.fade-in-bottom {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp .8s ease-out forwards;
+    animation-delay: .4s;
+}
+.Hello-btn.fade-in-bottom {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp .8s ease-out forwards;
+    animation-delay: .6s;
+}
+.Contact-Icons.fade-in-bottom {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp .8s ease-out forwards;
+    animation-delay: .8s;
+}
+
+
+
 @media (max-width: 768px) {
     // .Home-container {
     //     padding: 20px;
@@ -267,5 +380,12 @@
 @keyframes rollIn {
     to {
         transform: translateX(0) rotate(0);
+    }
+}
+
+@keyframes fadeInFromX {
+    to {
+        opacity: 1;
+        transform: translateX(0);
     }
 }
