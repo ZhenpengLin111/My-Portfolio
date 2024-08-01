@@ -15,7 +15,7 @@
 
 .work {
   position: relative;
-  width: 40%;
+  width: 500px;
   list-style: none;
   border: 1px solid black;
   border-radius: 4px;
@@ -54,6 +54,12 @@
 
 .work:hover .work-pic {
   transform: scale(1.05);
+}
+
+@media (max-width: 1024px) {
+  .works {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 540px) {
