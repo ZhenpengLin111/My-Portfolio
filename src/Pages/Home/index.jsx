@@ -15,6 +15,7 @@ import * as echarts from 'echarts';
 import Icon from "./icon";
 import Footer from "@/Components/Footer";
 import ScrollBtn from "@/Components/ScrollBtn";
+import CountdownTimer from '@/assets/Countdown Timer.png'
 
 
 function Home() {
@@ -211,10 +212,17 @@ function Home() {
                 <div className={`Projects-container ${projectsVis ? 'fade-in-x' : ''}`}>
                     <ul>
                         <Work
+                            link={"https://zplcountdown-timer.netlify.app/"}
+                            pic={CountdownTimer}
+                            name={'Countdown Timer'}
+                            description={'The Countdown Timer app helps users track important upcoming events by providing a real-time decrementing display of the time remaining until each event.'}
+                            tags={['React Js']}
+                        />
+                        <Work
                             link={"https://zplarticlemanager.netlify.app"}
                             pic={ArticleManager}
                             name={'ArticleManager'}
-                            description={'ArticleManager is a Vue 3 application that simulates a real-world article management system. It allows users to authenticate, update profiles, and create, edit, or delete articles, providing efficient content management and user interaction.'}
+                            description={'ArticleManager is a Vue 3 backend system for article management. It allows users to authenticate, update profiles, and create, edit, or delete articles, providing efficient content management and user interaction.'}
                             tags={['Vue.Js', 'Element Plus', 'Axios']}
                         />
                         <Work

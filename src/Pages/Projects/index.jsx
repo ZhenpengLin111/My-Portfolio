@@ -8,15 +8,16 @@ import Work from './Work'
 import Footer from '@/Components/Footer';
 import ScrollBtn from '@/Components/ScrollBtn';
 import { useState, useRef } from 'react';
+import CountdownTimer from '@/assets/Countdown Timer.png'
 
 function Projects() {
-     // Keep track of the scrolling position of the component
-     const ProjectRef = useRef(null)
-     const [scrollPos, setScrollPos] = useState(0)
-     const handleScroll = (e) => {
-         const { scrollTop } = e.target
-         setScrollPos(scrollTop)
-     }
+    // Keep track of the scrolling position of the component
+    const ProjectRef = useRef(null)
+    const [scrollPos, setScrollPos] = useState(0)
+    const handleScroll = (e) => {
+        const { scrollTop } = e.target
+        setScrollPos(scrollTop)
+    }
     return (
         <div className="Projects" onScroll={handleScroll} ref={ProjectRef}>
             <Helmet>
@@ -31,37 +32,44 @@ function Projects() {
                 </div>
                 <ul className="works">
                     <Work
-                    link={"https://zplarticlemanager.netlify.app"} 
-                    pic={ArticlePoster}
-                    name={'ArticleManager'}
-                    description={'ArticleManager is a Vue 3 application that simulates a real-world article management system. It allows users to authenticate, update profiles, and create, view, edit, or delete articles, providing efficient content management and user interaction.'}
-                    tags={['Vue.Js', 'Element Plus', 'Axios']}
+                        link={"https://zplcountdown-timer.netlify.app/"}
+                        pic={CountdownTimer}
+                        name={'Countdown Timer'}
+                        description={'The Countdown Timer app helps users track important upcoming events by providing a real-time decrementing display of the time remaining until each event.'}
+                        tags={['React Js']}
                     />
                     <Work
-                    link={"https://zplrecipefinder.netlify.app/"} 
-                    pic={Recipe_Finder}
-                    name={'Recipe Finder'}
-                    description={'A website simplifies meal planning by enabling you to discover recipes based on specific nutrients or available ingredients. Enjoy the convenience of finding the perfect dish for any occasion, personalized to your dietary preferences. '}
-                    tags={['React Js', 'Axios']}
+                        link={"https://zplarticlemanager.netlify.app"}
+                        pic={ArticlePoster}
+                        name={'ArticleManager'}
+                        description={'ArticleManager is a Vue 3 backend system for article management. It allows users to authenticate, update profiles, and create, view, edit, or delete articles, providing efficient content management and user interaction.'}
+                        tags={['Vue.Js', 'Element Plus', 'Axios']}
                     />
                     <Work
-                    link={"https://main.d1hx4eb06kng5e.amplifyapp.com"}
-                    pic={CUNY_JOIN} 
-                    name={'CUNY_JOIN'}
-                    description={'A comprehensive website which aims to serve the CUNY student community by providing two essential functions: scholarship searching and a student forum. '}
-                    tags={['React Js', 'AWS']}
+                        link={"https://zplrecipefinder.netlify.app/"}
+                        pic={Recipe_Finder}
+                        name={'Recipe Finder'}
+                        description={'A website simplifies meal planning by enabling you to discover recipes based on specific nutrients or available ingredients. Enjoy the convenience of finding the perfect dish for any occasion, personalized to your dietary preferences. '}
+                        tags={['React Js', 'Axios']}
                     />
                     <Work
-                    link={"https://zplmyportfolio.netlify.app/"}
-                    pic={MyBlog}
-                    name={'My Portfolio'}
-                    description={'A portfolio website that introduces myself and document my growth on Web dev.'}
-                    tags={['React Js']}
+                        link={"https://main.d1hx4eb06kng5e.amplifyapp.com"}
+                        pic={CUNY_JOIN}
+                        name={'CUNY_JOIN'}
+                        description={'A comprehensive website which aims to serve the CUNY student community by providing two essential functions: scholarship searching and a student forum. '}
+                        tags={['React Js', 'AWS']}
+                    />
+                    <Work
+                        link={"https://zplmyportfolio.netlify.app/"}
+                        pic={MyBlog}
+                        name={'My Portfolio'}
+                        description={'A portfolio website that introduces myself and document my growth on Web dev.'}
+                        tags={['React Js']}
                     />
                 </ul>
             </div>
             <Footer />
-            <ScrollBtn scrollPos={scrollPos} ele={ProjectRef}/>
+            <ScrollBtn scrollPos={scrollPos} ele={ProjectRef} />
         </div>
     );
 }
