@@ -44,6 +44,11 @@ Here are some of the projects I have worked on during my learning journey:
 - **Description:** A Vue 3 application that simulates a real-world article management system. It allows users to authenticate, update profiles, and create, view, edit, or delete articles, providing efficient content management and user interaction.
 - **Technologies Used:** Vue.js, Element Plus, Axios
 
+### Project 5: Countdown Timer
+![Countdown Timer Screenshot](/src/assets/Countdown-Timer.png)
+- **Description:** The Countdown Timer app helps users track important upcoming events by providing a real-time decrementing display of the time remaining until each event.
+- **Technologies Used:** React, MUI
+
 ### Skills
 
 - **Programming Languages:** HTML, CSS, JavaScript, TypeScript, C++, Python

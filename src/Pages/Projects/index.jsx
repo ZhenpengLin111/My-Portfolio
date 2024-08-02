@@ -8,7 +8,7 @@ import Work from './Work'
 import Footer from '@/Components/Footer';
 import ScrollBtn from '@/Components/ScrollBtn';
 import { useState, useRef } from 'react';
-import CountdownTimer from '@/assets/Countdown Timer.png'
+import CountdownTimer from '@/assets/Countdown-Timer.png'
 
 function Projects() {
     // Keep track of the scrolling position of the component
@@ -36,7 +36,7 @@ function Projects() {
                         pic={CountdownTimer}
                         name={'Countdown Timer'}
                         description={'The Countdown Timer app helps users track important upcoming events by providing a real-time decrementing display of the time remaining until each event.'}
-                        tags={['React Js']}
+                        tags={['React Js', 'MUI']}
                     />
                     <Work
                         link={"https://zplarticlemanager.netlify.app"}

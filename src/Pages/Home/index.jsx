@@ -15,7 +15,7 @@ import * as echarts from 'echarts';
 import Icon from "./icon";
 import Footer from "@/Components/Footer";
 import ScrollBtn from "@/Components/ScrollBtn";
-import CountdownTimer from '@/assets/Countdown Timer.png'
+import CountdownTimer from '@/assets/Countdown-Timer.png'
 
 
 function Home() {
@@ -216,7 +216,7 @@ function Home() {
                             pic={CountdownTimer}
                             name={'Countdown Timer'}
                             description={'The Countdown Timer app helps users track important upcoming events by providing a real-time decrementing display of the time remaining until each event.'}
-                            tags={['React Js']}
+                            tags={['React Js', 'MUI']}
                         />
                         <Work
                             link={"https://zplarticlemanager.netlify.app"}
