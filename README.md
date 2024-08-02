@@ -41,7 +41,7 @@ Here are some of the projects I have worked on during my learning journey:
 
 ### Project 4: ArticleManager
 ![ArticleManager Screenshot](/src/assets/ArticleManager.png)
-- **Description:** A Vue 3 application that simulates a real-world article management system. It allows users to authenticate, update profiles, and create, view, edit, or delete articles, providing efficient content management and user interaction.
+- **Description:** A Vue 3 backend system for article management. It allows users to authenticate, update profiles, and create, view, edit, or delete articles, providing efficient content management and user interaction.
 - **Technologies Used:** Vue.js, Element Plus, Axios
 
 ### Project 5: Countdown Timer
